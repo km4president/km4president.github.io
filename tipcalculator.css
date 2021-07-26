@@ -1,0 +1,41 @@
+body{
+	background-color: pink;
+}
+
+.calculatorarea{
+	width: 350px;
+	height: 450px;
+	background-color: white;
+	border-radius: 8px;
+	text-align: center;
+	position: relative;
+	left: 500px;
+	top: 100px;
+}
+
+.calculatorheader{
+	background-color: black;
+	height: 35px;
+	border-radius: 8px;
+}
+
+h1{
+	color: white;
+	font-size: 30px;
+}
+
+form{
+	padding: 20px;
+}
+
+button{
+	text-align: center;
+	background-color: black;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.calculatorbase{
+	text-align: center;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TIP CALCULATOR</title>
+	<link rel="stylesheet" type="text/css" href="tipcalculator.css">
+</head>
+<body>
+	<div class="calculatorarea">
+		<div class="calculatorheader">
+			<h1>TIP CALCULATOR</h1>
+		</div>
+
+		<form>
+			<p>Total Bill Amount:</p>
+			$<input id="totalbill" type="text">
+
+			<p>How would you rate the service?</p>
+			<label for="rating">Choose your Rating</label>
+
+			<select id="ratingid">
+			  <option value="0.25">5 Stars-25% Tip</option>
+			  <option value="0.2">4 Stars-20% Tip</option>
+			  <option value="0.15">3 Stars-15% Tip</option>
+			  <option value="0.1">2 Stars-10% Tip</option>
+			  <option value="0.05">1 Star-5% Tip</option>
+			</select>
+
+			<p>How many people to split bill:</p>
+			<input id="howmany" type="text">
+		</form>
+		<div class="calculatorbase">
+			<button onclick="calc()">CALCULATE TIP PER PERSON</button>
+
+			<h3>TIP AMOUNT</h3>
+				<p id="tipamount"></p>
+				<p>EACH</p>
+		</div>
+
+		
+
+		
+	</div>
+
+	<script type="text/javascript" src="tipcalculator.js"></script>
+</body>
+</html>
